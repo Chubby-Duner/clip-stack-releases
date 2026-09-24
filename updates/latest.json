@@ -1,11 +1,11 @@
 {
-  "version": "1.6.1-beta",
-  "pub_date": "2026-09-24T06:38:07Z",
-  "notes": "fix(updater): 客户端清单 endpoints 改指 master 分支（与 CI RELEASES_BRANCH 一致，原 main 路径 404）\r\n",
+  "version": "1.7.0",
+  "pub_date": "2026-09-24T07:26:58Z",
+  "notes": "v1.7.0：应用内自动更新上线\r\n\r\n新增「设置 → 关于」：应用内检查更新、发行说明展示、下载进度条、静默安装、自动重启——此后升级无需手动下载重装。版本清单 Gitee 优先 / GitHub 回退，安装包经 minisign 签名验证（防篡改、防降级）。\r\n\r\n1.6.0 及更早版本无更新插件，本版本需手动安装一次，此后更新均在应用内完成。\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjB5ZjhoNUtkSHFlYlBYVGZiRkVyUmRPQ2JIRVNyRUg2US9WaDlpeWpDL21xVlRldEc2L2o4MVRFRkFlMGJQTjNHOXhhWWVmN2FXZU9WdGRRNlhkbVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjMxNTk0CWZpbGU6Q2xpcFN0YWNrXzEuNi4xLWJldGFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuNi4xLWJldGEKKy8yNzRaLzZUdHZ3VGxqU0Q0T0VKMEhsUEF4a0srN001MGFTZGJhMmVqVTBxalZjRU9RSnBJWURGMExNWmI4M2hQaUhrazkrUWZRV1FJMktHN0drREE9PQo=",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.6.1-beta/ClipStack_1.6.1-beta_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjRsL3dPL3FtZktoQjE2RXRPMmd4TnZmT0RnSmxsS0MvelBqcTdiVkRubTFVWEF3WlZmamhveU5WVUtOSFZObWd0WU9wWlhxM1dsSUlNZlZvWTJHdFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjM0NTIzCWZpbGU6Q2xpcFN0YWNrXzEuNy4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoxLjcuMApMV09Wb1VyeHBmM0F5SDEwSlc0YlVObnd0OW1PR0dMNU5MUDRvZmJqTFpWeUd0eENYNHUwVFZjREc4RWt4dUVGaGNNZENTdlplVldrOE94Sk9XVG5BQT09Cg==",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.7.0/ClipStack_1.7.0_x64-setup.exe"
     }
   }
 }
