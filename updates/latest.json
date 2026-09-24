@@ -1,0 +1,11 @@
+{
+  "version": "1.6.1-beta",
+  "pub_date": "2026-09-24T06:38:07Z",
+  "notes": "fix(updater): 客户端清单 endpoints 改指 master 分支（与 CI RELEASES_BRANCH 一致，原 main 路径 404）\r\n",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjB5ZjhoNUtkSHFlYlBYVGZiRkVyUmRPQ2JIRVNyRUg2US9WaDlpeWpDL21xVlRldEc2L2o4MVRFRkFlMGJQTjNHOXhhWWVmN2FXZU9WdGRRNlhkbVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjMxNTk0CWZpbGU6Q2xpcFN0YWNrXzEuNi4xLWJldGFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuNi4xLWJldGEKKy8yNzRaLzZUdHZ3VGxqU0Q0T0VKMEhsUEF4a0srN001MGFTZGJhMmVqVTBxalZjRU9RSnBJWURGMExNWmI4M2hQaUhrazkrUWZRV1FJMktHN0drREE9PQo=",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.6.1-beta/ClipStack_1.6.1-beta_x64-setup.exe"
+    }
+  }
+}
