@@ -1,10 +1,10 @@
 {
   "version": "1.10.0",
-  "pub_date": "2026-09-27T10:53:16Z",
-  "notes": "v1.10.0：界面布局与可读性迭代——固定片段迁为左侧常驻栏（可折叠让宽），新增全局字号三档缩放，类型角标中文化与语义配色统一，默认面板加宽。明细见 CHANGELOG\r\n",
+  "pub_date": "2026-09-27T15:56:30Z",
+  "notes": "v1.10.0：固定片段迁为左侧常驻栏（可折叠），新增全局字号三档缩放，类型角标中文化与语义配色统一，移除片段管理页，默认面板加宽；深色主题字色对比度修复。明细见 CHANGELOG\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjAxR0pPK3BvUW9aalNTdTM5bytJeTBDZHFSMi9CMUdxWm5KaFJMdUZUVFRHRjVqdnBRNUNoN0dCZmxXMUxYVGVYclpUWlA1YmVKZnkzWGJlc0VXRGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTA2MTgyCWZpbGU6Q2xpcFN0YWNrXzEuMTAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMC4wClFaTFFzMVpHQmVVL1VodWtaVzF5ZmFEdFdSNVpjbnROZVZjemxWbjZySHFTME9OUXZ2UWJDekFpanNXanF4cXIwem5USElFRXFvQUNHMnNvUjBmNUF3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjBvNytZditQODRkd1RXemFXNG9FcS9SUmpiVW5mMGlDZWhoRksyZHhBankxWkxWamlxMlczaU1rQjJ2djNhenRadnQ5OElwV2lRZlp2Z1JKZzFTSVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI0MjQyCWZpbGU6Q2xpcFN0YWNrXzEuMTAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMC4wClhnQy9jOE5pWFA0WjlzVlFyYStDUjZ0bTlMdVBzWmJHQ2k3RVZIckhsaHpxRStXVWhqUnJUVGpFTWFtZGpLcGlKZXU2ME1CN0RHZmZ4YStTVFhSM0RRPT0K",
       "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.10.0/ClipStack_1.10.0_x64-setup.exe"
     }
   }
