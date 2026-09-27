@@ -1,11 +1,11 @@
 {
-  "version": "1.8.0",
-  "pub_date": "2026-09-25T15:27:42Z",
-  "notes": "ClipStack 1.8.0\r\n\r\n数据可靠性四件套（备份 ZIP 可选含图片 / 自动定时备份 / 敏感内容识别与保护 / 通知提醒双通道）+ 全局代码 review 两轮整改；设置页使用手册目录化（折叠章节 + FAQ 手风琴）；新增测试与 CI 门禁基线。详见 CHANGELOG 与 docs/code-review-report.md。\r\n",
+  "version": "1.9.0",
+  "pub_date": "2026-09-27T07:04:40Z",
+  "notes": "ClipStack v1.9.0：常规更新优化，界面体验、操作响应与稳定性改进，建议所有用户升级。\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjhnVnptaTUrd2NWa2g4M1BVSzFsVHdaQThSVllmUlYzZEVZMzNNekJKU0RYZTZ5Z1ZSaFpCL0hPTTl1elV6T09UcXM0Q01LVld2cDRRd0hOalJyUFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzQ5NzI3CWZpbGU6Q2xpcFN0YWNrXzEuOC4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoxLjguMAp5NzBWVjBmNWNoWDFLWHZPUWsyd3RiUHg1SjMwWU91MmJjWGpqaUZzWmI1bnhxTk5nU3dXWE1Bc3hXc1lab0ZnZ2RydVpGUTVhSnFVVjhtVGVnWmtBZz09Cg==",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.8.0/ClipStack_1.8.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjlXcHNMVDdlbm5TaURZNmRWRkJUZjhmTElOTnREbkVyQWJUeTRheWo3UUVpV2pYU3pLWnpHWFZLZGtEZ0VLL0FBY3lYSXRzMEMwY0h3VDRXa3dWbUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDkxOTcxCWZpbGU6Q2xpcFN0YWNrXzEuOS4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoxLjkuMAp4ZDBXQy93Vk9DZVVhUHNMNHdtdkRJWHc2eldxc09FU2hZejQxWXNiaXUrUnhISmZQZnNxVFlJZUptYWVoSEJQUFA0dVNLYUt1RnNmYXBaVHFnRHBDZz09Cg==",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.9.0/ClipStack_1.9.0_x64-setup.exe"
     }
   }
 }
