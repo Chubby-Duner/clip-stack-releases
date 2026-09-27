@@ -1,11 +1,11 @@
 {
-  "version": "1.9.0",
-  "pub_date": "2026-09-27T07:04:40Z",
-  "notes": "ClipStack v1.9.0：常规更新优化，界面体验、操作响应与稳定性改进，建议所有用户升级。\r\n",
+  "version": "1.10.0",
+  "pub_date": "2026-09-27T10:53:16Z",
+  "notes": "v1.10.0：界面布局与可读性迭代——固定片段迁为左侧常驻栏（可折叠让宽），新增全局字号三档缩放，类型角标中文化与语义配色统一，默认面板加宽。明细见 CHANGELOG\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjlXcHNMVDdlbm5TaURZNmRWRkJUZjhmTElOTnREbkVyQWJUeTRheWo3UUVpV2pYU3pLWnpHWFZLZGtEZ0VLL0FBY3lYSXRzMEMwY0h3VDRXa3dWbUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDkxOTcxCWZpbGU6Q2xpcFN0YWNrXzEuOS4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoxLjkuMAp4ZDBXQy93Vk9DZVVhUHNMNHdtdkRJWHc2eldxc09FU2hZejQxWXNiaXUrUnhISmZQZnNxVFlJZUptYWVoSEJQUFA0dVNLYUt1RnNmYXBaVHFnRHBDZz09Cg==",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.9.0/ClipStack_1.9.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjAxR0pPK3BvUW9aalNTdTM5bytJeTBDZHFSMi9CMUdxWm5KaFJMdUZUVFRHRjVqdnBRNUNoN0dCZmxXMUxYVGVYclpUWlA1YmVKZnkzWGJlc0VXRGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTA2MTgyCWZpbGU6Q2xpcFN0YWNrXzEuMTAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMC4wClFaTFFzMVpHQmVVL1VodWtaVzF5ZmFEdFdSNVpjbnROZVZjemxWbjZySHFTME9OUXZ2UWJDekFpanNXanF4cXIwem5USElFRXFvQUNHMnNvUjBmNUF3PT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.10.0/ClipStack_1.10.0_x64-setup.exe"
     }
   }
 }
