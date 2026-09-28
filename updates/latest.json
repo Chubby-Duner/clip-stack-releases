@@ -1,11 +1,11 @@
 {
-  "version": "1.10.0",
-  "pub_date": "2026-09-27T15:56:30Z",
-  "notes": "v1.10.0：固定片段迁为左侧常驻栏（可折叠），新增全局字号三档缩放，类型角标中文化与语义配色统一，移除片段管理页，默认面板加宽；深色主题字色对比度修复。明细见 CHANGELOG\r\n",
+  "version": "1.11.0",
+  "pub_date": "2026-09-28T03:09:57Z",
+  "notes": "v1.11.0：修复数据库 schema 引导顺序缺陷（补列先于建索引）——全新安装/旧版本库首次连接即自锁，导致历史列表无数据、复制无法捕获、备份导入失败、新建片段失败、更改存储位置报「no such column: expires_at」；启动自动补列自愈，数据零丢失；数据库连接失败自动重试。建议所有用户升级。明细见 CHANGELOG\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjBvNytZditQODRkd1RXemFXNG9FcS9SUmpiVW5mMGlDZWhoRksyZHhBankxWkxWamlxMlczaU1rQjJ2djNhenRadnQ5OElwV2lRZlp2Z1JKZzFTSVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI0MjQyCWZpbGU6Q2xpcFN0YWNrXzEuMTAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMC4wClhnQy9jOE5pWFA0WjlzVlFyYStDUjZ0bTlMdVBzWmJHQ2k3RVZIckhsaHpxRStXVWhqUnJUVGpFTWFtZGpLcGlKZXU2ME1CN0RHZmZ4YStTVFhSM0RRPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.10.0/ClipStack_1.10.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjhsOXp5Ti82TUJVKzNCQmdkcDVsVXdkTGFtYjJTY3pkQjh3NTF4a3YwVkdwWWJsZWlmOE1WeWRSSThVNkpxMVNmemorZlpZTlVwTnZSVkNtTktCQndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTY0NzMzCWZpbGU6Q2xpcFN0YWNrXzEuMTEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMS4wClFBc3dXVUtmdUdBbW0rbVRZbVZQTXVpZVN0S0ZBeTllY3kzMHhTbVVYMHpQMnJkcjQxZ3BJZFpWUzlCT2tNRldpMUYwd1IxdFEwTkRadVhldVU1dUNRPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.11.0/ClipStack_1.11.0_x64-setup.exe"
     }
   }
 }
