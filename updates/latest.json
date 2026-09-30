@@ -1,11 +1,11 @@
 {
-  "version": "1.11.0",
-  "pub_date": "2026-09-28T03:09:57Z",
-  "notes": "v1.11.0：修复数据库 schema 引导顺序缺陷（补列先于建索引）——全新安装/旧版本库首次连接即自锁，导致历史列表无数据、复制无法捕获、备份导入失败、新建片段失败、更改存储位置报「no such column: expires_at」；启动自动补列自愈，数据零丢失；数据库连接失败自动重试。建议所有用户升级。明细见 CHANGELOG\r\n",
+  "version": "1.12.0",
+  "pub_date": "2026-09-30T04:16:21Z",
+  "notes": "ClipStack 1.12.0 — 隐私降噪与静默启动\r\n\r\n建议所有用户升级（含安全修复与 DPI 显示修复）。\r\n\r\n新增\r\n- 图片捕获总开关：关闭后截图不再入库、文本照常捕获，聊天截图等一次性图片不再污染历史\r\n- 图片黑名单：名单内应用仅图片不捕获、文本照常记录（聊天工具降噪，与应用黑名单叠加生效）\r\n- 来源显示友好名（任务管理器同款应用名）与来源记录\r\n- 黑名单「从应用选择」：从最近复制来源 / 运行中的应用点选即加，免记进程名（支持中文 / 拼音 / 进程名搜索）\r\n- 列表条目一键屏蔽来源：hover「屏蔽」按钮，二选一（仅屏蔽图片 / 屏蔽文本和图片）\r\n- 暂停/恢复捕获全局快捷键 Alt+Shift+P，三入口状态同步 + 桌面通知确认\r\n- 更新完成桌面通知：静默安装重启后右下角「已更新到 vX.Y.Z」\r\n- 设置页信息架构重组：黑名单二合一页签、窄面板图标栏导航、捕获与隐私二段子分组\r\n- 通知小窗信息分层：标题/详情/类型角标/数值，hover 暂停驻留、右下角关闭钮、倒计时条\r\n\r\n变更\r\n- 启动策略改为「仅首次运行显示面板，此后静默入托盘」——Alt+V / 托盘 / 再次双击 exe 唤起不变\r\n- 暂停捕获三入口统一持久化：顶栏/托盘暂停重启后不再静默丢失\r\n\r\n修复\r\n- 150%/200% 显示缩放下桌面通知错位被裁（DPI 量纲混用）\r\n- 深色模式菜单 hover 不可见、reduce-motion 下循环动画高频抖闪与倒计时条消失\r\n- 固定片段右键菜单 F2/Del 键提示未实现（Del 曾误删历史条目）\r\n- 桌面通知/托盘菜单不跟随运行时主题切换\r\n- 黑名单选择器中文搜索不命中（全字段预拼 + 进程快照补充）\r\n- 应用选择弹层卡死风险（进程路径缓冲区越界）等安全修复\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjhsOXp5Ti82TUJVKzNCQmdkcDVsVXdkTGFtYjJTY3pkQjh3NTF4a3YwVkdwWWJsZWlmOE1WeWRSSThVNkpxMVNmemorZlpZTlVwTnZSVkNtTktCQndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTY0NzMzCWZpbGU6Q2xpcFN0YWNrXzEuMTEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMS4wClFBc3dXVUtmdUdBbW0rbVRZbVZQTXVpZVN0S0ZBeTllY3kzMHhTbVVYMHpQMnJkcjQxZ3BJZFpWUzlCT2tNRldpMUYwd1IxdFEwTkRadVhldVU1dUNRPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.11.0/ClipStack_1.11.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdndkZU5DYjJYcEo0d0tQUWorQld0cjdCcjhpMFhoU0F4UVJCalRHUEl1L2Vqb1R4S2s4MGlOdnNyZDhUY0FlaUNHMGI0bTZEODRZdnlzSkdOVzN6dmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzQxNTc2CWZpbGU6Q2xpcFN0YWNrXzEuMTIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMi4wCmR2NWJWUnB2cWxDdUZJUDdCc2dhTXZndFVReC9PWTFqTzhNWlNuY0x0aDd3bEFWWjF5dWJtcnZieGYveWRIZ0RUbCtIZ1gyS1pHb0JiUld4aGtXdkNRPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.12.0/ClipStack_1.12.0_x64-setup.exe"
     }
   }
 }
