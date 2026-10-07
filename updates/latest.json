@@ -1,11 +1,11 @@
 {
-  "version": "1.12.0",
-  "pub_date": "2026-09-30T04:16:21Z",
-  "notes": "ClipStack 1.12.0 — 隐私降噪与静默启动\r\n\r\n建议所有用户升级（含安全修复与 DPI 显示修复）。\r\n\r\n新增\r\n- 图片捕获总开关：关闭后截图不再入库、文本照常捕获，聊天截图等一次性图片不再污染历史\r\n- 图片黑名单：名单内应用仅图片不捕获、文本照常记录（聊天工具降噪，与应用黑名单叠加生效）\r\n- 来源显示友好名（任务管理器同款应用名）与来源记录\r\n- 黑名单「从应用选择」：从最近复制来源 / 运行中的应用点选即加，免记进程名（支持中文 / 拼音 / 进程名搜索）\r\n- 列表条目一键屏蔽来源：hover「屏蔽」按钮，二选一（仅屏蔽图片 / 屏蔽文本和图片）\r\n- 暂停/恢复捕获全局快捷键 Alt+Shift+P，三入口状态同步 + 桌面通知确认\r\n- 更新完成桌面通知：静默安装重启后右下角「已更新到 vX.Y.Z」\r\n- 设置页信息架构重组：黑名单二合一页签、窄面板图标栏导航、捕获与隐私二段子分组\r\n- 通知小窗信息分层：标题/详情/类型角标/数值，hover 暂停驻留、右下角关闭钮、倒计时条\r\n\r\n变更\r\n- 启动策略改为「仅首次运行显示面板，此后静默入托盘」——Alt+V / 托盘 / 再次双击 exe 唤起不变\r\n- 暂停捕获三入口统一持久化：顶栏/托盘暂停重启后不再静默丢失\r\n\r\n修复\r\n- 150%/200% 显示缩放下桌面通知错位被裁（DPI 量纲混用）\r\n- 深色模式菜单 hover 不可见、reduce-motion 下循环动画高频抖闪与倒计时条消失\r\n- 固定片段右键菜单 F2/Del 键提示未实现（Del 曾误删历史条目）\r\n- 桌面通知/托盘菜单不跟随运行时主题切换\r\n- 黑名单选择器中文搜索不命中（全字段预拼 + 进程快照补充）\r\n- 应用选择弹层卡死风险（进程路径缓冲区越界）等安全修复\r\n",
+  "version": "1.16.0",
+  "pub_date": "2026-10-07T10:19:29Z",
+  "notes": "ClipStack v1.16.0：文件捕获、OCR 识图、富文本回贴与自动检查更新等重大升级，建议所有用户升级。\r\n\r\n本次为合并发布，主要变化：\r\n\r\n【新增】\r\n- 文件捕获与回贴：资源管理器复制的文件/文件夹整组入库，Ctrl+V 粘贴出原文件本身（非路径字符串），可搜索、支持拼音\r\n- 截图文字识别（OCR）：图片入库后自动识别文字，搜图里的字直接命中那张图，行内可复制图中文字\r\n- PaddleOCR 本地推理引擎：内置简体中文+英文模型，准确率显著高于系统引擎（合成基准 +15.4pp），模型随包分发、全程零网络\r\n- 带格式捕获与原样回贴：网页/Word/Excel/WPS 复制的富文本不再降级纯文本，回贴三格式整组写回；「去格式复制」与 Shift+Enter 一键粘贴纯文本\r\n- 自动检查更新：启动时与每日后台检查新版本，发现后桌面通知提示（可在设置关闭），下载安装仍需手动确认\r\n- 桌面通知升级：堆叠队列（连发不吞没）、来源应用头行、时间上移\r\n- 敏感内容保护：模糊打码、定时删除倒计时角标、揭示 5 秒自动重打码\r\n- 图片预览：←→ 翻页浏览、识别文字面板、缩放快捷键（+ / - / 0 / 1）、来源与时间信息补全\r\n- 高频片段一键固定、暂停捕获三入口、Win+V 接管、静默入托盘启动\r\n\r\n【修复】\r\n- 修复 OCR 逐字空格、小图识别率断崖、文件批次冲刷丢内容、通知几何错档、回贴使用次数虚增等 20+ 项问题，全库六轮增量审查闭环\r\n\r\n【安全与稳定】\r\n- 安装包 minisign 签名验证，更新通道防篡改\r\n- HDROP 网络路径不再冻结全局剪贴板；多处捕获竞态与数据丢失修复\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdndkZU5DYjJYcEo0d0tQUWorQld0cjdCcjhpMFhoU0F4UVJCalRHUEl1L2Vqb1R4S2s4MGlOdnNyZDhUY0FlaUNHMGI0bTZEODRZdnlzSkdOVzN6dmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzQxNTc2CWZpbGU6Q2xpcFN0YWNrXzEuMTIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xMi4wCmR2NWJWUnB2cWxDdUZJUDdCc2dhTXZndFVReC9PWTFqTzhNWlNuY0x0aDd3bEFWWjF5dWJtcnZieGYveWRIZ0RUbCtIZ1gyS1pHb0JiUld4aGtXdkNRPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.12.0/ClipStack_1.12.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjJQRUtsTFdnaWdHWDIvQXo0c3drS0Z2Smd6eXd6TktHVC9uMUlIQ2U5Zy9Ua3E3WGZ0M2ltNXFra3hKTEhVR1JXUjNsMmt0UUNqU2xzTmhEUzY0amdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzY3MzM1CWZpbGU6Q2xpcFN0YWNrXzEuMTYuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xNi4wCm9EeTVjeUZ4M0lsbkhsUkFYc2tiaUI3Z1RGb0x4RHZaQXJ4NGhpYXFaMjBJSG1MOU42bUlrc0dBbXVGMGQyMloxVk9TTGpqbkRTYkpjZUtrQUhJTEJnPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.16.0/ClipStack_1.16.0_x64-setup.exe"
     }
   }
 }
