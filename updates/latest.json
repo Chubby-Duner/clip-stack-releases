@@ -1,11 +1,11 @@
 {
-  "version": "1.16.0",
-  "pub_date": "2026-10-07T10:19:29Z",
-  "notes": "ClipStack v1.16.0：文件捕获、OCR 识图、富文本回贴与自动检查更新等重大升级，建议所有用户升级。\r\n\r\n本次为合并发布，主要变化：\r\n\r\n【新增】\r\n- 文件捕获与回贴：资源管理器复制的文件/文件夹整组入库，Ctrl+V 粘贴出原文件本身（非路径字符串），可搜索、支持拼音\r\n- 截图文字识别（OCR）：图片入库后自动识别文字，搜图里的字直接命中那张图，行内可复制图中文字\r\n- PaddleOCR 本地推理引擎：内置简体中文+英文模型，准确率显著高于系统引擎（合成基准 +15.4pp），模型随包分发、全程零网络\r\n- 带格式捕获与原样回贴：网页/Word/Excel/WPS 复制的富文本不再降级纯文本，回贴三格式整组写回；「去格式复制」与 Shift+Enter 一键粘贴纯文本\r\n- 自动检查更新：启动时与每日后台检查新版本，发现后桌面通知提示（可在设置关闭），下载安装仍需手动确认\r\n- 桌面通知升级：堆叠队列（连发不吞没）、来源应用头行、时间上移\r\n- 敏感内容保护：模糊打码、定时删除倒计时角标、揭示 5 秒自动重打码\r\n- 图片预览：←→ 翻页浏览、识别文字面板、缩放快捷键（+ / - / 0 / 1）、来源与时间信息补全\r\n- 高频片段一键固定、暂停捕获三入口、Win+V 接管、静默入托盘启动\r\n\r\n【修复】\r\n- 修复 OCR 逐字空格、小图识别率断崖、文件批次冲刷丢内容、通知几何错档、回贴使用次数虚增等 20+ 项问题，全库六轮增量审查闭环\r\n\r\n【安全与稳定】\r\n- 安装包 minisign 签名验证，更新通道防篡改\r\n- HDROP 网络路径不再冻结全局剪贴板；多处捕获竞态与数据丢失修复\r\n",
+  "version": "1.17.0",
+  "pub_date": "2026-10-08T07:06:01Z",
+  "notes": "ClipStack v1.17.0：查看大图重设计与批量取用升级。\r\n\r\n【新增】\r\n- 查看大图全面重设计：顶栏精简（文件名+缩放+保存），文字层升级为右侧并排检查器（层内查找/字号三档/字数统计），新增旋转（另存旋转副本、绝不覆盖原图）、胶片条（前后各5张点击直达）、复制图片、用默认应用打开、在文件夹中显示、单条重新识别文字（实时进行中状态）、预览内删除（可撤销）\r\n- 多选合并粘贴：批量勾选多条文本合并为纯文本回贴/复制，顺序三档可选（勾选顺序/复制顺序/列表顺序），弹层预览可微调，产物不落库\r\n- 条目临时编辑：文本条目 ✎ 或 E 键改一两个字符后直接回贴/复制，原条目不动\r\n- 批量反选：页脚批量条一键取反当前可见条目\r\n- 预览键盘闭环补全：空格下一张、T 文字层、I 记录信息、/ 查找、R 旋转、Shift+C 复制图片\r\n\r\n【修复】\r\n- 重新识别文字点了没反应 → 全程状态反馈（识别中/成功/失败等明确提示）\r\n- 原图丢失时文字层收起但保留「复制图中文字」出路；深色下浮层 hover 不可见等用户实测修正 6 处\r\n- 大图预览单文件 1663 行拆为组件化结构，缩略图竞态与死图自愈\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjJQRUtsTFdnaWdHWDIvQXo0c3drS0Z2Smd6eXd6TktHVC9uMUlIQ2U5Zy9Ua3E3WGZ0M2ltNXFra3hKTEhVR1JXUjNsMmt0UUNqU2xzTmhEUzY0amdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzY3MzM1CWZpbGU6Q2xpcFN0YWNrXzEuMTYuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xNi4wCm9EeTVjeUZ4M0lsbkhsUkFYc2tiaUI3Z1RGb0x4RHZaQXJ4NGhpYXFaMjBJSG1MOU42bUlrc0dBbXVGMGQyMloxVk9TTGpqbkRTYkpjZUtrQUhJTEJnPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.16.0/ClipStack_1.16.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhditHK0VCTFZjNU96ZnhsY1ZkVzVQTlZCblQxMk1IRSttNkN3YXVBSFFFZzNDUGJNQWs0YlRobzJBcmM2dzRhZFM4RW9aZ0xWQmVtNWlyLzRVL3F5TmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDQxOTgxCWZpbGU6Q2xpcFN0YWNrXzEuMTcuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xNy4wCmViZkFsTTJ1MnBJZ29aYzJodDdwTnhGMlNlOVlobitFM2c1YzBVQ2RKVVR1YW9wdUdySjBJTzUzcjVYVUJlOS9QRUdzM2NxeEdsWXRsdE82WWF2T0R3PT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.17.0/ClipStack_1.17.0_x64-setup.exe"
     }
   }
 }
