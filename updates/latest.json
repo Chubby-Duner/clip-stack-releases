@@ -1,11 +1,11 @@
 {
   "version": "1.18.0",
-  "pub_date": "2026-10-10T10:47:19Z",
+  "pub_date": "2026-10-10T11:16:28Z",
   "notes": "ClipStack v1.18.0：设置体验重做 + 系统集成加固。\r\n\r\n【新增】\r\n- 设置页重设计：分区卡片（组头 = 小标题 + 状态胶囊，行 = 标题短说明 + 右侧控件，长说明折叠进「详细说明」）\r\n- 设置搜索（`/` 聚焦）：搜标题 / 说明 / 同义词（进程名、英文别名都能直达），左导航显示各分区命中数，命中单元强制展开并标出命中原因\r\n- 图片条数上限（50~5000 张，默认 500）：图片此前只有容量上限，几 KB 的小图能堆到数万条；设置页与页脚同步外显「N / 上限 张 · X MB / 上限 MB」\r\n\r\n【变更】\r\n- 图标系统收敛 + 动效令牌化：122 处内联 SVG 收进图标注册表，尺寸 11 档归并为 5 档、描边由尺寸反算（有效线宽从 2.65× 离散收到 ≈1.35px 统一）；`transition: all` 28 处逐属性展开归零；补「状态变形 / 确认绘制 / 按压 / 图标旋转」四组动效与 `prefers-reduced-motion` 显式降级\r\n- 桌面通知小窗重设计为可见堆叠：同屏最多 3 条、新通知自右下角冒出、旧卡上移；「数据被删」类通知（图片上限淘汰 / 文本条数淘汰 / 敏感内容到期）在溢出时优先保留\r\n- 危险语义全站红色化：清理 / 清空 / 删除类按钮与错误态提示统一走 `--danger` 四件套，「危险 = 红、固定/置顶/暂停/敏感 = 琥珀」不再混用\r\n- 列表重设计 P1~P8：类型角标撤销、meta 顺序重排、时间移入右对齐尾列并与操作钮原位交叉淡入、吸顶分组头成为真分节、⋯ 菜单扩容、行 stagger 入场\r\n- 「含格式」角标自解释：改为「含表格 / 含 Word / 含 网页」等具体格式 + 图标；格式判定只看内容特征（从 Word 复制的纯文字不再误报）\r\n- 设置页 8 处分段控件补 `role=radiogroup` / `aria-checked`；22 处纯图标按钮补 `aria-label`（读屏可读）\r\n\r\n【修复】\r\n- 历史条数与列表窗口口径分裂：图片只吃窗口、不占配额，实测 33 行文本/文件被挤出窗口后既看不到也搜不到 → 改为按类型分窗，界面能看到的即是库里留存的全部\r\n- 改上限不立即生效（要等下次复制或重启）→ 设置项改完即淘汰并实时反馈\r\n- 图片容量口径低估约 1.5×（缩略图是独立文件却没上账，实测低估 1.49×）→ 容量改为「原图 + 独立缩略图」，缩略图改 WebP 有损、原图 ≤320px 直接复用原图\r\n- DB 行与磁盘文件双向漂移（孤儿文件永不回收 / 幽灵行永远打不开）→ 新增启动与导入后的存储对账自愈：缩略图指回原图、原图丢失的行标「原图已丢失」（不计容量、仍可搜索可删）、无引用文件回收\r\n- `check:render` 此前实际全灭（54 项断言失败 + 15 处运行时错误：两份 vue 实例导致组件整棵渲染中止）→ 修好后全绿，这道检查此前等于不存在\r\n- `--fg-mute` 压在列表 hover 底色上只有 4.39:1（鼠标划过任何带 meta 的行就触发）→ 提亮到 4.85:1，并同步修正 `--blue-50` / `--danger-soft` 上的同款问题\r\n- 生产构建残留一整套浏览器原生交互（右键菜单 / F5 刷新 / Ctrl+P 打印 / Ctrl+F 查找）→ 三个窗口逐一关闭 WebView2 默认行为，开发态保留右键「检查」\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdndMcGRMQllhaHJzZWhsV21aWHN2QVhVd3MyOUExamJnV0hvNFU2bENNMk0vTUtKZmwzWXQ3WmZOTlZRTFl2UlVFV09UbEdBYlFzQTZQTk9EU1p2eHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI4Mzc3CWZpbGU6Q2xpcFN0YWNrXzEuMTguMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xOC4wCk1DZm5KV1VvbmVLakZOYTlIZlVBSGxMZ3h1ZXdxM1VmZCtxU1IwMTRDWStzQ2FLc043L0tPVjh3a3NHdlZOeDVnU1FVZzJyejM5d3gzbmUrbTFHQUR3PT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.18.0/ClipStack_1.18.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjFoaDhUalcvaFZyWkFSTVI2bUdRSndMZTYrRXduNkpsZWdoNUx5VHQ0eFZ5M0pINTM0a0RnYW9pai9Qd2RwKzM1RmlaZE1kUklLMVB2blhFcGNEQUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI5OTcwCWZpbGU6Q2xpcFN0YWNrXzEuMTguMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4xOC4wClcwYW4rdEk5dWZuWkM2dlY3TUg1WkpOeE1Ma3h2eXBvbGg0U1RPK3ppVjVqdFNoNzZxSitOak5CekNPRm13SVdzYmlUd3RKalhQR25odldHaHBIM0FRPT0K",
+      "url": "https://github.com/chubby-duner/clip-stack-releases/releases/download/v1.18.0/ClipStack_1.18.0_x64-setup.exe"
     }
   }
 }
