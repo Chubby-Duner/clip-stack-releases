@@ -1,11 +1,11 @@
 {
-  "version": "1.20.0",
-  "pub_date": "2026-10-12T08:24:36Z",
-  "notes": "ClipStack v1.20.0：图上文字层——识别结果带上位置，图上可点、可查、可导出表格。\r\n\r\n【新增】\r\n- 图上文字块叠加与双向联动：识别结果带上每行的图上位置（与识别同一次产出，零额外开销），预览页把文字块叠在图上，与右侧文字检查器逐行双向联动——悬停任一侧另一侧同步高亮，单击锁定选中（↑ ↓ 逐块移动、Esc 清除，选中块不在视野内自动推屏），层内查找命中的块同时在图上描亮（Enter / ⇧Enter 逐处跳转）——查找从「有没有」升级为「在哪」；缩放 / 平移 / 旋转自动跟随\r\n- 按格 / 按词取文（表格场景）：识别产物多出「单元」（表格里的一格）与「词框」两层，选中一个多单元块时各格虚线框与格内词框就地出现——点一格复制那一格、点一个词复制那一个词，↑ ↓ 的阅读序细化为「块内逐词 → 跨块」\r\n- 表格重建与导出：仅用已有几何推断块类型（标题 / 表格行），把连续的多单元行按列聚成表格并在文字层挂表格卡片（N 行 × M 列）——可整表导出 TSV（粘进表格软件即行列还原）或按行导出；判不准就什么都不标\r\n- 文字框显隐三档（顶栏钮 / B 循环）：全部 → 仅选中 → 无框，「仅选中」时其余块仍在场可点选，「无框」时图上完全干净；档位落库、无块数据时不出现\r\n- 行序按阅读序重排：引擎返回的行序在表格 / 多栏场景是按列成组的（实测 y 序列 573→725 后又回到 573，此前纯文本里的行序本身就是乱的）——现按 y 分带 + 带内按 x 重排，表格一行的多个单元格（编号 / 责任人 / 待办事项 / 截止）重新拼成一行，并标注「由 N 个识别行拼成」\r\n\r\n【变更】\r\n- 旧条目（此前识别的存量图）没有文字块数据时，叠加层与联动整体不出现，文字层仍是原来的整段纯文本、行为与从前一致；单条「重新识别文字」或设置页「用当前引擎重新识别全部图片」即可补上框（重识别期间保留旧文本与旧框，搜索不出现真空期）\r\n- 为控制体积，词级框按预算选存：载荷超 16 KB 时只丢词框（实测 1100×840 会议纪要带词框 34 KB、不带 6.4 KB），单元框、表格重建与按格复制照常——降级成「少一层粒度」而非「少一类能力」\r\n\r\n【修复】\r\n- v1.18 的原生右键菜单加固实际没生效：设置写进了 WebView2 设置对象却没落到当前文档（该设置须在顶层导航之后写），启动后第一次右键照样弹原生菜单、F12 还能开 devtools → 补一次顶层导航使其从启动后第一次右键起生效，三处静默失败改为失败告警 + 回读校验\r\n- 托盘右键菜单整体空白（右键托盘图标弹出窗口却什么都不画）：上一轮补的那次导航顶掉了托盘菜单窗口在途的首次加载，窗口停在空白文档（可见性与矩形都对、一个像素不画）→ 改为文档加载完成后再加固，托盘右键菜单恢复\r\n",
+  "version": "1.21.0",
+  "pub_date": "2026-10-19T10:42:36Z",
+  "notes": "ClipStack v1.21.0：完善数据可靠性与故障诊断，新增用户指南和日志目录快捷入口，并修复通知小窗显示问题。\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjVwMEh4R25vRGp5a2M5T1pFU2RsQTE1K0RLVHhUZXZJYmxvZFhnMVFGbTU1dnpGeDlwK2VHcHgySzlDUnpBR0ZrejlUYUd6eDh3ZzlOa0g3WmhUdUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzkyMzc2CWZpbGU6Q2xpcFN0YWNrXzEuMjAuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMC4wCjFYQ1BmZ2todVR3Uk4yWUhZWVdpMHZ2TnJidEI1T0FrVXZtOTRDeTVLZUxGYXRKZ2JkUC9GS25nNjZiVjI1dzFmWFBIVk4zU1NKa2cxMVh6T1dLcUN3PT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.20.0/ClipStack_1.20.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdnlKaWpQQTM4bFY3TzM0TmpablhtTzJORVV0SFNJbG4zaEVFM25TdFJwOVZ4VHZvREdqT3c2amdUUlVoaXdaUmNYNnpzOTgwL2FKR1k2aFlwQkhhdHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDA1NDgzCWZpbGU6Q2xpcFN0YWNrXzEuMjEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMS4wClZwN2pLQTdpSnZZL1krOTVIajJIRWlYbHFxc0RWbldUSThndTBFY09tblFvbXdmZVhiQkVwdC83MlBESm1oZFkycE45M29vNUk5QS9UOW5hUk14WUJRPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.21.0/ClipStack_1.21.0_x64-setup.exe"
     }
   }
 }
