@@ -1,11 +1,11 @@
 {
-  "version": "1.21.0",
-  "pub_date": "2026-10-19T10:42:36Z",
-  "notes": "ClipStack v1.21.0：完善数据可靠性与故障诊断，新增用户指南和日志目录快捷入口，并修复通知小窗显示问题。\r\n",
+  "version": "1.22.0",
+  "pub_date": "2026-10-21T04:37:54Z",
+  "notes": "ClipStack v1.22.0：首次使用引导与键位发现、自动粘贴失败反馈、设置搜索修复\r\n\r\n【新增】\r\n- 首次使用与键位发现：全新用户首次有内容时提示「已开始记录」，搜索栏下方显示非阻塞键位提示条；点击「知道了」、成功回贴或显示 8 秒后收起，可在「设置 → 快捷键 → 常用操作」重新查看\r\n- 首次隐藏找回提示：尚未成功回贴的新用户首次主动隐藏面板后，提示当前热键 / 托盘唤回方式\r\n- 快捷键就地提示：页脚、首次使用条和设置页共用键位定义；固定片段前 9 行显示 Alt+1~9 键帽\r\n- 自动粘贴失败反馈：按键注入失败时桌面小窗提示「已复制到剪贴板」并引导手动 Ctrl+V，重复失败限频；置顶模式不误报\r\n\r\n【修复】\r\n- 首次使用提示布局与焦点：提示条不覆盖列表、不自动抢焦点\r\n- 空列表热键文案：使用当前设置中的唤起热键，不再写死 Alt+V\r\n- 设置搜索非命中行未隐藏、命中行折叠按钮状态不同步\r\n- 设置搜索命中集变动后 CSS 类被 Vue 整串覆盖\r\n- 安装包发布者名称改为 ClipStack\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdnlKaWpQQTM4bFY3TzM0TmpablhtTzJORVV0SFNJbG4zaEVFM25TdFJwOVZ4VHZvREdqT3c2amdUUlVoaXdaUmNYNnpzOTgwL2FKR1k2aFlwQkhhdHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDA1NDgzCWZpbGU6Q2xpcFN0YWNrXzEuMjEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMS4wClZwN2pLQTdpSnZZL1krOTVIajJIRWlYbHFxc0RWbldUSThndTBFY09tblFvbXdmZVhiQkVwdC83MlBESm1oZFkycE45M29vNUk5QS9UOW5hUk14WUJRPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.21.0/ClipStack_1.21.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjZiVlo0NkQxYmw3cXJ0MzNsamJJc1FnYmNWaWlwUXVrYk9VSUpmK3VCaUZtL2grNm1MSEI4S2poNmFZYkdGSVFwdzRXS3FYNVhoRXpYY2ZXQkJqbUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU2MzcwCWZpbGU6Q2xpcFN0YWNrXzEuMjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMi4wCk0zQTVPcExMVFVsQ25Od1F4V2t1UzlKeTNiS2habnd2eUpYeVJNeFU0VXhmbE41WUl3Zk9nN1RYTnk3cFlFejdqUTl3aDZCbEtUMG9KN200em9VSUFBPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.22.0/ClipStack_1.22.0_x64-setup.exe"
     }
   }
 }
