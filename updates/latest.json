@@ -1,11 +1,11 @@
 {
-  "version": "1.22.0",
-  "pub_date": "2026-10-21T04:37:54Z",
-  "notes": "ClipStack v1.22.0：首次使用引导与键位发现、自动粘贴失败反馈、设置搜索修复\r\n\r\n【新增】\r\n- 首次使用与键位发现：全新用户首次有内容时提示「已开始记录」，搜索栏下方显示非阻塞键位提示条；点击「知道了」、成功回贴或显示 8 秒后收起，可在「设置 → 快捷键 → 常用操作」重新查看\r\n- 首次隐藏找回提示：尚未成功回贴的新用户首次主动隐藏面板后，提示当前热键 / 托盘唤回方式\r\n- 快捷键就地提示：页脚、首次使用条和设置页共用键位定义；固定片段前 9 行显示 Alt+1~9 键帽\r\n- 自动粘贴失败反馈：按键注入失败时桌面小窗提示「已复制到剪贴板」并引导手动 Ctrl+V，重复失败限频；置顶模式不误报\r\n\r\n【修复】\r\n- 首次使用提示布局与焦点：提示条不覆盖列表、不自动抢焦点\r\n- 空列表热键文案：使用当前设置中的唤起热键，不再写死 Alt+V\r\n- 设置搜索非命中行未隐藏、命中行折叠按钮状态不同步\r\n- 设置搜索命中集变动后 CSS 类被 Vue 整串覆盖\r\n- 安装包发布者名称改为 ClipStack\r\n",
+  "version": "1.23.0",
+  "pub_date": "2026-10-24T15:51:09Z",
+  "notes": "ClipStack v1.23.0：界面与交互整体升级\r\n\r\n【变更】\r\n- 视觉统一焕新：主面板改为一体式顶栏 + 工作台侧栏，列表与设置改卡片化布局，弹窗、通知与托盘统一为同一套观感\r\n- 交互更顺手：点选条目即有实时检查器，设置支持右上角即搜，图片预览适配明暗两种模式，批量与键盘操作链路更连贯\r\n- 隐私更直观：敏感内容改为物理遮蔽，悬停不降低模糊度，揭示后自动回遮\r\n- 快捷键更自由：支持录制 Win 组合键作为唤起热键\r\n- 失败提示更清楚：自动粘贴受限、更新失败等情况给出可读原因与下一步建议\r\n\r\n【修复】\r\n- 深色模式分隔线不可见\r\n- 全站控件切换动画丢失\r\n- 更新失败提示为英文技术串\r\n- 面板点击外部不关闭\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjZiVlo0NkQxYmw3cXJ0MzNsamJJc1FnYmNWaWlwUXVrYk9VSUpmK3VCaUZtL2grNm1MSEI4S2poNmFZYkdGSVFwdzRXS3FYNVhoRXpYY2ZXQkJqbUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU2MzcwCWZpbGU6Q2xpcFN0YWNrXzEuMjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMi4wCk0zQTVPcExMVFVsQ25Od1F4V2t1UzlKeTNiS2habnd2eUpYeVJNeFU0VXhmbE41WUl3Zk9nN1RYTnk3cFlFejdqUTl3aDZCbEtUMG9KN200em9VSUFBPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.22.0/ClipStack_1.22.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjJ2T1ByOVFYRitZSUZNSWlaUzYrRFBuQmFUNjNISStUTUZlcmNRUUFqZmNQVm1hS2l0T0xvbVBVVUlyRkJZQmpIRDRSbzgzUWd4cU5UZi9ER3lLeXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODU1ODU3CWZpbGU6Q2xpcFN0YWNrXzEuMjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMy4wClZrZHlYUkE2OWF4RGk5RTRFVmVjU3d1dG5TUGFCSlhZOWltelg1N0ZSRzdSNDVvMmQ0b0ZSS2dxZUIvUTBvakd1NmovRVpic1BNcWRlU21RbUZ3ckNnPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.23.0/ClipStack_1.23.0_x64-setup.exe"
     }
   }
 }
