@@ -1,11 +1,11 @@
 {
-  "version": "1.23.0",
-  "pub_date": "2026-10-24T15:51:09Z",
-  "notes": "ClipStack v1.23.0：界面与交互整体升级\r\n\r\n【变更】\r\n- 视觉统一焕新：主面板改为一体式顶栏 + 工作台侧栏，列表与设置改卡片化布局，弹窗、通知与托盘统一为同一套观感\r\n- 交互更顺手：点选条目即有实时检查器，设置支持右上角即搜，图片预览适配明暗两种模式，批量与键盘操作链路更连贯\r\n- 隐私更直观：敏感内容改为物理遮蔽，悬停不降低模糊度，揭示后自动回遮\r\n- 快捷键更自由：支持录制 Win 组合键作为唤起热键\r\n- 失败提示更清楚：自动粘贴受限、更新失败等情况给出可读原因与下一步建议\r\n\r\n【修复】\r\n- 深色模式分隔线不可见\r\n- 全站控件切换动画丢失\r\n- 更新失败提示为英文技术串\r\n- 面板点击外部不关闭\r\n",
+  "version": "1.24.0",
+  "pub_date": "2026-11-03T08:24:19Z",
+  "notes": "新增 设置里新增更新日志，随时回看每一版改了什么\n修复 升级后系统自带的 Win+V 面板不再被永久关掉\n改进 Win10 面板四角也有圆角，观感与 Win11 一致\n修复 更新下载失败时直接说明原因，不用再自己猜",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjJ2T1ByOVFYRitZSUZNSWlaUzYrRFBuQmFUNjNISStUTUZlcmNRUUFqZmNQVm1hS2l0T0xvbVBVVUlyRkJZQmpIRDRSbzgzUWd4cU5UZi9ER3lLeXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODU1ODU3CWZpbGU6Q2xpcFN0YWNrXzEuMjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yMy4wClZrZHlYUkE2OWF4RGk5RTRFVmVjU3d1dG5TUGFCSlhZOWltelg1N0ZSRzdSNDVvMmQ0b0ZSS2dxZUIvUTBvakd1NmovRVpic1BNcWRlU21RbUZ3ckNnPT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.23.0/ClipStack_1.23.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjBqVXNDemdKdzZWM2R1U2NwcGU5TWw2SlJUVDdZMWFrbk1HcHdlb3h2VGdVRzE1V1Y2ZTBsTVV5TXhPWXVYakVMVlJTbmFaalZUNFh3M2hHWXVuQ3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjkzNDc4CWZpbGU6Q2xpcFN0YWNrXzEuMjQuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNC4wCnNJNVc5Vi9KRmdiYnZUSGMxSFM2bllyUjlhMDhYeFpQS3hwNHg4aVpuYzRNQ29MVjZybTdRR29iNkk3MU9xTjZEQldCL0ZJSzJ2WVNVaXJuTy9rb0J3PT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.24.0/ClipStack_1.24.0_x64-setup.exe"
     }
   }
 }
