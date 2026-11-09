@@ -1,11 +1,11 @@
 {
-  "version": "1.24.0",
-  "pub_date": "2026-11-03T08:24:19Z",
-  "notes": "新增 设置里新增更新日志，随时回看每一版改了什么\n修复 升级后系统自带的 Win+V 面板不再被永久关掉\n改进 Win10 面板四角也有圆角，观感与 Win11 一致\n修复 更新下载失败时直接说明原因，不用再自己猜",
+  "version": "1.25.0",
+  "pub_date": "2026-11-09T12:29:42Z",
+  "notes": "改进 批量删除与设置页清理也能撤销，误删可以救回\n新增 按问号打开键位速查，翻页与首尾跳转补上\n修复 截图识别失败不再沉默，会说明原因并给出重试\n新增 历史文本可直接编辑并写回，不必再编辑后复制\n另有 2 条改动",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjBqVXNDemdKdzZWM2R1U2NwcGU5TWw2SlJUVDdZMWFrbk1HcHdlb3h2VGdVRzE1V1Y2ZTBsTVV5TXhPWXVYakVMVlJTbmFaalZUNFh3M2hHWXVuQ3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjkzNDc4CWZpbGU6Q2xpcFN0YWNrXzEuMjQuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNC4wCnNJNVc5Vi9KRmdiYnZUSGMxSFM2bllyUjlhMDhYeFpQS3hwNHg4aVpuYzRNQ29MVjZybTdRR29iNkk3MU9xTjZEQldCL0ZJSzJ2WVNVaXJuTy9rb0J3PT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.24.0/ClipStack_1.24.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjlwNXFLb09DZ1lCd3lhU0JVR1BwdVRwZUhoNzlOVlg1b1l1ZitCRUQyR3RPQVR4VWg1eDV2ajJQUy9UaTl4MnFGbUR6RkoraFJiU3ozZ1VoNmo3V2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjI2NDAzCWZpbGU6Q2xpcFN0YWNrXzEuMjUuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNS4wCmNScTF1VzZDVm8xdmdFMTdMS1lscUZVVGZnaXRnTFBQcDY2L1p6dzJxeTRNWVpJdE0veUk0QUdyRkRkRXhidGYyWnpQcEVYRSsvU29tanJQRXhSOUN3PT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.25.0/ClipStack_1.25.0_x64-setup.exe"
     }
   }
 }
