@@ -1,3 +1,9 @@
+---
+name: 问题反馈
+about: 报告 ClipStack 使用中遇到的问题（安全问题请勿在此提交）
+title: '[问题] '
+---
+
 <!--
 提交前请先确认三件事：
 1. 你用的是官方渠道的安装包（GitHub / Gitee 两处 Release），见 README 的「官方下载」；
