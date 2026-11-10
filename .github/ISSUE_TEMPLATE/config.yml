@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题（请勿公开提交）
+    url: https://github.com/Chubby-Duner/clip-stack-releases/blob/master/SECURITY.md
+    about: 数据泄露、命令执行、越权等问题请按 SECURITY.md 第二节私下沟通，不要在 Issue 里贴 PoC 或受影响数据。
+  - name: 下载渠道与完整性校验
+    url: https://github.com/Chubby-Duner/clip-stack-releases#官方下载
+    about: 确认官方渠道、用公钥自行校验安装包签名。
