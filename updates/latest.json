@@ -1,11 +1,11 @@
 {
-  "version": "1.25.0",
-  "pub_date": "2026-11-09T12:29:42Z",
-  "notes": "改进 批量删除与设置页清理也能撤销，误删可以救回\n新增 按问号打开键位速查，翻页与首尾跳转补上\n修复 截图识别失败不再沉默，会说明原因并给出重试\n新增 历史文本可直接编辑并写回，不必再编辑后复制\n另有 2 条改动",
+  "version": "1.26.0",
+  "pub_date": "2026-11-16T09:26:16Z",
+  "notes": "新增 分组成为独立分类，片段从侧栏升到主区卡片列表\n修复 复制与回贴都保留格式，表格和图片不再丢失\n新增 设置页改为常驻面包屑，随时看到自己停在哪一节\n改进 格式角标最多显示两项，完整清单可在检查器查看\n另有 2 条改动",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjlwNXFLb09DZ1lCd3lhU0JVR1BwdVRwZUhoNzlOVlg1b1l1ZitCRUQyR3RPQVR4VWg1eDV2ajJQUy9UaTl4MnFGbUR6RkoraFJiU3ozZ1VoNmo3V2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjI2NDAzCWZpbGU6Q2xpcFN0YWNrXzEuMjUuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNS4wCmNScTF1VzZDVm8xdmdFMTdMS1lscUZVVGZnaXRnTFBQcDY2L1p6dzJxeTRNWVpJdE0veUk0QUdyRkRkRXhidGYyWnpQcEVYRSsvU29tanJQRXhSOUN3PT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.25.0/ClipStack_1.25.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjhGOVQzUWlDRmUzWjdUZXNqSFhWcmRZdHE4Y29JWXFSVC9pd3ltbEo1c1U5NkFFSVFYZGJtRDUzTVJtOGhydTcrT3ZhMDk3eVFXS0Q0STVIalBRdHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODIwNDA4CWZpbGU6Q2xpcFN0YWNrXzEuMjYuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNi4wClF6YUxiOHpOaGFGREExU3VSbFE1MjVPOE9UOVdZejk1R25NZGljdWlQNldrbytIUUdORnhHMWxSeFQ2UFQ1Sm9CU3VHVzYxbTRsS25RanlIM3JIakR3PT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.26.0/ClipStack_1.26.0_x64-setup.exe"
     }
   }
 }
