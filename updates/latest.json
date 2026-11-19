@@ -1,11 +1,11 @@
 {
-  "version": "1.26.0",
-  "pub_date": "2026-11-16T09:26:16Z",
-  "notes": "新增 分组成为独立分类，片段从侧栏升到主区卡片列表\n修复 复制与回贴都保留格式，表格和图片不再丢失\n新增 设置页改为常驻面包屑，随时看到自己停在哪一节\n改进 格式角标最多显示两项，完整清单可在检查器查看\n另有 2 条改动",
+  "version": "1.27.0",
+  "pub_date": "2026-11-19T03:26:55Z",
+  "notes": "新增 文字识别新增空闲释放，静置后自动释放模型降内存\n修复 频率视图删除条目立即消失，不再等几秒\n修复 重新识别图片后预览与列表状态即时刷新\n修复 放大 4K 截图保持清晰，不再发糊\n改进 列表与截图数据瘦身，加载更快、占用更低\n改进 缩略图与预览按需解码，看图更省内存",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdjhGOVQzUWlDRmUzWjdUZXNqSFhWcmRZdHE4Y29JWXFSVC9pd3ltbEo1c1U5NkFFSVFYZGJtRDUzTVJtOGhydTcrT3ZhMDk3eVFXS0Q0STVIalBRdHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODIwNDA4CWZpbGU6Q2xpcFN0YWNrXzEuMjYuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNi4wClF6YUxiOHpOaGFGREExU3VSbFE1MjVPOE9UOVdZejk1R25NZGljdWlQNldrbytIUUdORnhHMWxSeFQ2UFQ1Sm9CU3VHVzYxbTRsS25RanlIM3JIakR3PT0K",
-      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.26.0/ClipStack_1.26.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUOGVPQTBBRTBhdnlJUVpNYWZCYmRxRXh6RG4xS0ZWc1BTWUk4NmNOMWZmam1vM2JjUlovUExKQmthRXppTkpxMXQraTFsUVc3NkpjMmx1NElxc3VnNExiaS9BcU1xUkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDU4MTg4CWZpbGU6Q2xpcFN0YWNrXzEuMjcuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yNy4wCnFXMG9xeTduZjFPZzZSaVd6UGJXUVBGSmEreW1YSXhkT01IVTNYQjRiaWV1SkpjZ2txTkh2WjN0ZFZsU0FxdDhSNW9uNzNIQ0QzSHU0T3ZkdTZVckFBPT0K",
+      "url": "https://gitee.com/chubby-duner/clip-stack-releases/releases/download/v1.27.0/ClipStack_1.27.0_x64-setup.exe"
     }
   }
 }
